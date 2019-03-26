@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="card card-body">
+            <img src="/public/img/logo.png" class="logo" alt="">
+            <h3 class="text-center">
+                Account Login
+            </h3>
+            <form action="/users/login" method="post">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="{{email}}" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" value="{{password}}" id="password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
